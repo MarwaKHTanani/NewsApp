@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News</title>
     <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
   </head>
   <body>
     <header>
@@ -14,7 +17,7 @@
         </div>
         <div class="rigth-header">
           <ul class="nav-links">
-            <li><a href="#"> Top News</a></li>
+            <li><a href="#top-news"> Top News</a></li>
             <li class="dropdown">
               <a href="">Categories</a>
               <ul class="drop-cat">
@@ -29,12 +32,15 @@
         </div>
       </nav>
     </header>
-    <section class="top-sec">
-      <h2>Top News</h2>
-      <div id="slider"></div>
-      <button class="prev">&lt;</button>
-      <button class="next">&gt;</button>
-    </section>
+<section class="top-sec"id="top-news">
+  <h2 class="top-title">Top News</h2>
+  <div class="slider-wrapper">
+    <button class="prev">&lt;</button>
+    <div id="slider"></div>
+    <button class="next">&gt;</button>
+  </div>
+</section>
+
 
     <script src="script.js"></script>
         <script src="data.js"></script>
