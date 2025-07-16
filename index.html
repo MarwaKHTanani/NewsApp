@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <div class="left-header">
+          <h1 class="logo">NEW'S</h1>
+        </div>
+        <div class="rigth-header">
+          <ul class="nav-links">
+            <li><a href="#"> Top News</a></li>
+            <li class="dropdown">
+              <a href="">Categories</a>
+              <ul class="drop-cat">
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Economy</a></li>
+                <li><a href="#">Tech</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Top blogs</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="top-sec">
+      <h2>Top News</h2>
+      <div id="slider"></div>
+      <button class="prev">&lt;</button>
+      <button class="next">&gt;</button>
+    </section>
 
     <script src="script.js"></script>
-</body>
+        <script src="data.js"></script>
+
+  </body>
 </html>
